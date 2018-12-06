@@ -1,0 +1,22 @@
+.stylish-panel {
+   transition: 0.1s;
+   cursor: pointer;
+   border-width: 1px 1px 3px 1px !important;
+}
+
+.stylish-panel:hover {
+   background: rgba(200, 200, 200, 0.1);
+}
+
+.fx-container {
+   display: flex;
+   align-items: stretch;
+}
+
+.fx-container-vert {
+   text-align: center;
+}
+
+.fx-item-main {
+   flex-grow: 1;
+}
